@@ -1,0 +1,262 @@
+body{
+    font-family: 'Open Sans', 'Prompt', sans-serif;
+}
+
+.f-l{
+    float: left;
+}
+.f-r{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+.header{
+    background-color: #d22bb9;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+.header .wrapper .f-l{
+    display: flex;
+    align-items: center;
+}
+.header .wrapper .f-l .logo{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.header .wrapper .f-l .logo img{
+    width: 45px;
+    height: 45px;
+    padding: 10px 5px 0px 5px;
+}
+.header .wrapper .f-l .textlogo{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+}
+.header .wrapper{
+    /* background-color: yellow; */
+}
+.header .wrapper .f-r{
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.header .wrapper .f-r a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: red; */
+    box-sizing: border-box;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.active{
+    background-color: #fff;
+    color: #000 !important; 
+}
+.header .wrapper .f-r a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.cover{
+    height: 800px;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+}
+.cover .text{
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 10px #fff;
+}
+.cover h2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.cover h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.content{
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+.content .wrapper .row .f-l{
+    width: 440px;
+    padding: 25px 0px;
+}
+.content .wrapper .row .f-l p span{
+    font-size: 36px;
+    font-weight: bold;
+}
+.content .wrapper .row .f-l p{
+    font-size: 18px;
+}
+.content .wrapper .row .f-l a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d22bb9;
+    color: white;
+    border-radius: 15px;
+}
+.content .wrapper .row .f-r{
+    width: 440px;
+    height: 460px;
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    /* background: #000; */
+}
+.content .wrapper .row .f-r img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer .wrapper .row{
+    padding: 50px 0px 25px 0px;
+    box-sizing: border-box;
+}
+.footer .wrapper .row .f-l{
+    border-right: 2px solid white;
+    padding-right: 55px;
+    box-sizing: border-box;
+}
+.footer .wrapper .row .f-l div a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.footer .wrapper .row .f-r h4{
+    font-size: 22px;
+}
+.footer .wrapper .row .f-r form input{
+    padding: 10px 5px;
+}
+.footer .wrapper .copy{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+/* blog.html */
+.blogheader{
+    margin-top: 50px;
+
+}
+.blogheader .wrapper{
+    border-bottom: 1px solid #000;
+}
+.blogheader .wrapper h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.blogheader .wrapper h2{
+    font-size: 28px;
+}
+.blogheader .wrapper p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.blog .wrapper{}
+.blog .wrapper h3{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.blog .wrapper p{
+    font-size: 18px;
+}
+.blog .wrapper h4{
+    font-size: 22px;
+}
+.blog .wrapper .item{
+    text-align: center;
+    margin: 15px 0px 25px 0px;
+}
+.blog .wrapper .item img{}
+
+/* login.html */
+.bg-c{
+    background-color: #8f8f8f;
+}
+.login .wrapper .box{
+    text-align: center;
+    width: 450px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.login .wrapper .box h1{
+    font-weight: bolder;
+    margin: 25px 0px;
+}
+.login .wrapper .box hr{
+    margin-bottom: 35px;
+}
+.login .wrapper .box form div .fiel{
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-bottom: 1px solid #8f8f8f;
+    width: 380px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    outline: none;
+}
+.login .wrapper .box form a{
+    text-decoration: none;
+    color: #d22bb9;
+    margin-left: 40px;
+}
+.login .wrapper .box form .item{}
+.login .wrapper .box form .item .btn{
+    width: 380px;
+    background-color: #d22bb9;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.login .wrapper .box form a{
+    text-decoration: none;
+    color: #d22bb9;
+    margin: 20px 0px;
+    display: inline-block;
+}
+.login .wrapper .box form p{
+    margin-bottom: 35px;
+}
+.login .wrapper .box form p span a{
+    text-decoration: none;
+    color: #d22bb9;
+    font-weight: bold;
+}
+
+
